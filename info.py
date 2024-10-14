@@ -51,7 +51,7 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '1002
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mrinmoysinghasarkar03:6m5kSZmFsgEEZI9n@cluster0.80s9y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://dipsinghasarkar:zUlHwmlh5PV45Yv7@dipak10.m9juu87.mongodb.net/?retryWrites=true&w=majority&appName=Dipak10")
 DATABASE_NAME = environ.get('DATABASE_NAME', "mongodb")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Cluster0')
 
@@ -66,7 +66,7 @@ PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟ�
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'MrinmoySinghaSarkar') # owner username without @
 
 # Clone Information : If Clone Mode Is True Then Bot Clone Other Bots.
-CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
+CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
 CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "mongodb+srv://mrinmoysinghasarkar01:d0an0C27mvuBqpq5@cluster0.k8619.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # Necessary If clone mode is true
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'MOVIE_SENDING') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
