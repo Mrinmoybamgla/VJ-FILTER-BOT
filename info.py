@@ -23,7 +23,7 @@ API_HASH = environ.get('API_HASH', 'db8ae48ce50b5b34bf5a60a71bbd10b6')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
-CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
+CACHE_TIME = int(environ.get('CACHE_TIME', 3600))
 PICS = (environ.get('PICS', 'https://files.catbox.moe/sa2bz8.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b69af2db776e4e85d21ec.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
