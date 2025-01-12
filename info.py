@@ -106,9 +106,9 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', '')
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'teraboxlinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '03f140159a4bda3c72e9f0698c500e25c3f82074')
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE',true))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'primeurl.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '27a7e99316403c96710ae9f84cb18694c395edce')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
